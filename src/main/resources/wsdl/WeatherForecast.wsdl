@@ -225,7 +225,9 @@ targetNamespace="http://www.webservicex.net" xmlns:wsdl="http://schemas.xmlsoap.
     </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WeatherForecast">
+    
     <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get one week weather forecast for valid zip code or Place name in USA</wsdl:documentation>
+    
     <wsdl:port name="WeatherForecastSoap" binding="tns:WeatherForecastSoap">
       <soap:address location="http://www.webservicex.net/WeatherForecast.asmx" />
     </wsdl:port>
